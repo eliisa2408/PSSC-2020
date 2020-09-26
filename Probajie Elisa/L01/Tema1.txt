@@ -1,0 +1,6 @@
+Aplicatia Stack Overflow este,din punctul meu de vedere, cea mai cunoscuta comunitate pentru toti cei care se ocupa cu domeniul programarii.
+Aici se pot invata si impartasi cunostintele acumulate pentru a progresa si eventual,pentru a iti crea o cariera in acest domeniu.
+In cadrul aplicatiei poti gasi noi oportunitati de job, precum si informatii despre marile companii. Joburile sunt bine detaliate iar aplicarea pentru acestea este la indemana tuturor.
+Prin intermediu acestei platforme,oamenii se ajuta pentru a rezolva diferitele probleme din programare. 
+In sectiunea tags, intalnim toate limbajele de programare si poti selecta ceea ce te intereseaza,unde apar probleme intalnite,precum si raspunsuri date in prealabil pentru a invata cat mai multe lucruri despre limbajul respectiv.
+Stack overflow are parteneri IT din toata lumea,pentru a veni in sprijinul programatorilor care vor sa invete,iar lumea IT sa evolueze cat mai mult.

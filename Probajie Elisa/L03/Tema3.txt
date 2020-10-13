@@ -1,0 +1,26 @@
+Workflow
+Bounded context: " A&Q "
+   Workflow:" Ask a question "
+      -Triggered by "create question request received"
+      -INput "title,body,tags"
+      -OUTput "review and post question"
+      -Side effects "your question is ready to post it"
+
+Workflows documentation
+ Workflow: "Ask a question "
+ Input: " Title,body,tags "
+ Output: " Review and post question" event or discard draft
+//step1
+  Push the button, ask question
+//step2
+  Respect 3 steps:summarize the problem , describe what you have tried,when appropiate show some code
+//step3
+  Start writting the question
+//step4
+  Complete:title,body,tags(character limit for each)
+//step 5
+  Review and post your question or discard draft
+//step 7
+  New question posted
+
+

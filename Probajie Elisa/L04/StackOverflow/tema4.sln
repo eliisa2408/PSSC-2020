@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Primitives.IO", "Primitives.IO\Primitives.IO.csproj", "{ECDA493D-BFFE-441A-9409-591C905402C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{70F37A30-812F-4D96-B046-BFAAF26B7051}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackOverflow.Domain.Core", "StackOverflow.Domain.Core\StackOverflow.Domain.Core.csproj", "{2B918015-1201-4F24-8D8C-7A200B2DA0ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackOverflow.Domain.Schema", "StackOverflow.Domain.Schema\StackOverflow.Domain.Schema.csproj", "{19FC7BDC-82D1-46D0-ADA2-FDF0764BECC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{9D47A7B4-1ABD-4F92-93EE-5C32B7A5B9D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackOverflow.Adapters", "StackOverflow.Adapters\StackOverflow.Adapters.csproj", "{62C6B4E8-D1EA-4E4D-BE53-3764F7C3E047}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94730481-7F63-41DC-8EBC-A4A9F4110FF0}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECDA493D-BFFE-441A-9409-591C905402C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDA493D-BFFE-441A-9409-591C905402C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDA493D-BFFE-441A-9409-591C905402C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDA493D-BFFE-441A-9409-591C905402C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B918015-1201-4F24-8D8C-7A200B2DA0ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B918015-1201-4F24-8D8C-7A200B2DA0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B918015-1201-4F24-8D8C-7A200B2DA0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B918015-1201-4F24-8D8C-7A200B2DA0ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19FC7BDC-82D1-46D0-ADA2-FDF0764BECC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19FC7BDC-82D1-46D0-ADA2-FDF0764BECC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19FC7BDC-82D1-46D0-ADA2-FDF0764BECC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19FC7BDC-82D1-46D0-ADA2-FDF0764BECC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C6B4E8-D1EA-4E4D-BE53-3764F7C3E047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C6B4E8-D1EA-4E4D-BE53-3764F7C3E047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C6B4E8-D1EA-4E4D-BE53-3764F7C3E047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C6B4E8-D1EA-4E4D-BE53-3764F7C3E047}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B918015-1201-4F24-8D8C-7A200B2DA0ED} = {70F37A30-812F-4D96-B046-BFAAF26B7051}
+		{19FC7BDC-82D1-46D0-ADA2-FDF0764BECC9} = {70F37A30-812F-4D96-B046-BFAAF26B7051}
+		{62C6B4E8-D1EA-4E4D-BE53-3764F7C3E047} = {9D47A7B4-1ABD-4F92-93EE-5C32B7A5B9D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1C57439-551F-4E0F-8842-1373ADD6FAEE}
+	EndGlobalSection
+EndGlobal

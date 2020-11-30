@@ -5,9 +5,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Profile.Domain\Profile.Domain.csproj" />
-    <ProjectReference Include="..\Question.Domain\Question.Domain.csproj" />
-  </ItemGroup>
-
 </Project>
